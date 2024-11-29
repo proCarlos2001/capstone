@@ -59,9 +59,3 @@ With the built image, one can run the container with ``docker run -p 8050:8050 r
 Bundled with the API, there is a simple web interface made with [Dash](https://plotly.com/dash/) (which is made on top of Flask).
 After starting ``app.py``, if one points the browser to the `/` endpoint (e.g. ``http://127.0.0.1:8050`` if running locally), one should 
 see a dropdown menu for selecting a country and model predictions for the next 45 days for that country.
-
-<img src="./screenshots/prediction.png" style="zoom: 67%;" />
-
-At ``/monitor`` (or via the menu at the top of the page), one can access the latest metrics from training, which can be used for monitoring. 
-
-<img src="./screenshots/monitor.png" style="zoom:67%;" />
